@@ -1,0 +1,26 @@
+{
+  "name": "smart-rem",
+  "version": "2.2.0",
+  "description": "smart-rem is suitable for browser environment, vue frame, react frame, angular frame, nuxt frame, next frame.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+      "rem",
+      "smart rem",
+      "smart-rem",
+      "vue rem",
+      "vue-rem",
+      "react rem",
+      "react-rem",
+      "angular rem",
+      "angular-rem",
+      "nuxt rem",
+      "nuxt-rem",
+      "next rem",
+      "next-rem"
+  ],
+  "author": "luoyupu",
+  "license": "MIT"
+}
