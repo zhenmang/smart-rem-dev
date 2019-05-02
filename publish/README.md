@@ -4,8 +4,21 @@
 
 ### 1.browser
 
+**Step one:** 
+
+In file *.html
+
 ```
 <script src="./smart-rem.js"></script>
+```
+
+
+
+**Step two:**
+
+In file *.html
+
+```
 <script>
   smartRem(Arguments)
 </script>
@@ -15,6 +28,29 @@
 
 ```
 smartRem(750)
+```
+
+
+
+**Step three:**
+
+In file *.css
+
+```
+.class-name {
+	width: 1.5rem;
+	font-size: 0.5rem;
+}
+```
+
+**Notes**: If element'width of design draft is 150px, then it's rem is 1.5. The formula is simple as follows:
+
+```
+150 / 100 = 1.5
+150px     =>1.5rem
+--------------------
+50 / 100 = 0.5
+50px     => 0.5rem
 ```
 
 
@@ -52,7 +88,7 @@ In file src/*.vue
 
 ```
 .class-name {
-  width: 1.5rem;
+	width: 1.5rem;
 	font-size: 0.5rem;
 }
 ```
@@ -102,7 +138,7 @@ In file src/*.css
 
 ```
 .class-name {
-  width: 1.5rem;
+	width: 1.5rem;
 	font-size: 0.5rem;
 }
 ```
@@ -152,7 +188,7 @@ In file src/**/*.styl
 
 ```
 .class-name {
-  width: 1.5rem;
+	width: 1.5rem;
 	font-size: 0.5rem;
 }
 ```
@@ -223,7 +259,7 @@ In file pages/*.vue,
 
 ```
 .class-name {
-  width: 1.5rem;
+	width: 1.5rem;
 	font-size: 0.5rem;
 }
 ```
@@ -300,7 +336,7 @@ In file pages/*.js
 
 ```
 .class-name {
-  width: 1.5rem;
+	width: 1.5rem;
 	font-size: 0.5rem;
 }
 ```
