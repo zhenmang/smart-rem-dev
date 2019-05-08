@@ -1,7 +1,7 @@
 /*!
- * rem.js v1.0.0
+ * rem.js v2.3.2
  * (c) 2018 lyp
- * Released under the ISC License.
+ * Released under the MIT License.
  */
 /* eslint-disable */
 (function (global, factory) {

@@ -1,6 +1,6 @@
 {
   "name": "smart-rem",
-  "version": "2.3.0",
+  "version": "2.3.2",
   "description": "smart-rem is suitable for browser environment, vue frame, react frame, angular frame, nuxt frame, next frame.",
   "main": "index.js",
   "scripts": {
