@@ -1,7 +1,7 @@
 {
   "name": "smart-rem",
   "version": "2.3.2",
-  "description": "smart-rem is suitable for browser environment, vue frame, react frame, angular frame, nuxt frame, next frame.",
+  "description": "rem automation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
