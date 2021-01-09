@@ -1,4 +1,4 @@
-# Particular attention！ The best solution is to use it with smart-rem  
+# Particular attention！ The best solution is to use it with postcss-auto-rem  
 
 **smart-rem and postcss-auto-rem can set rem automatically, it's suitable for Vue Frameworks, React Frameworks, Angular Frameworks, Nuxt Frameworks, Next Frameworks, Node Api, gulp and so on.**
 
