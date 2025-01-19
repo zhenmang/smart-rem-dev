@@ -1,0 +1,70 @@
+{
+  "name": "smart-rem",
+  "version": "5.0.0",
+  "description": "rem automation",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress": "rm index.js && babel origin.js -o e5.js && uglifyjs e5.js -m -o index.js",
+    "move": "cd public && rm -r -f * && cd .. && cp -r index.js public/ & cp -r package.json public/ & cp -r README.md public/",
+    "release:patch": "npm version patch && npm publish --access public",
+    "release:minor": "npm version minor && npm publish --access public",
+    "release:major": "npm version major && npm publish --access public",
+    "build": "webpack --config webpack.config.js --mode=production"
+  },
+  "keywords": [
+    "rem",
+    "smart rem",
+    "smart-rem",
+    "vue rem",
+    "vue-rem",
+    "react rem",
+    "react-rem",
+    "angular rem",
+    "angular-rem",
+    "nuxt rem",
+    "nuxt-rem",
+    "next rem",
+    "next-rem"
+  ],
+  "author": "luoyupu",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack-cli": "^6.0.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-loader": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack-cli": "*"
+  },
+  "peerDependenciesMeta": {
+    "ts-loader": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    },
+    "@babel/core": {
+      "optional": true
+    },
+    "@babel/preset-env": {
+      "optional": true
+    },
+    "babel-loader": {
+      "optional": true
+    },
+    "webpack-cli": {
+      "optional": true
+    }
+  }
+}
